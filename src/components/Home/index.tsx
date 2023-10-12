@@ -1,4 +1,3 @@
-import React from 'react'
 import Navigation from '../base/Navigation'
 import Footer from '../base/Footer'
 import styles from  './styles.module.scss'
