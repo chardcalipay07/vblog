@@ -74,7 +74,7 @@ nav {
     }
 
     a.join {
-        color: #f63232;
+        color: #32f632;
     }
 }
 
@@ -185,3 +185,14 @@ p::after {
     content: " ...";
 }
 
+// Media query
+
+@media screen and (max-width: 1400px) {    
+    .banner .welcome h2 {
+        font-size: 60px;
+    }
+
+    nav li {
+        font-size: 18px
+    }
+}

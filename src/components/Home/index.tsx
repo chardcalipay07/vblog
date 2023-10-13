@@ -15,7 +15,7 @@ export default function Home() {
                 </div>
             </section>
             <nav className={styles.mainNav}>
-                <Navigation styles={styles} />
+                <Navigation styles={styles.join} />
             </nav>
             <main>
                 <article>
