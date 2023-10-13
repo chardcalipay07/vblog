@@ -15,7 +15,7 @@ export default function Home() {
                 </div>
             </section>
             <nav className={styles.mainNav}>
-                <Navigation />
+                <Navigation styles={styles} />
             </nav>
             <main>
                 <article>
@@ -32,7 +32,7 @@ export default function Home() {
             <section className={styles.join}>
                 <h2>Join today</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique iure hic illo nostrum laboriosam perspiciatis numquam soluta eaque obcaecati ipsa, temporibus in laudantium, totam sapiente sit, excepturi recusandae ut officia? lorem</p>
-                <form >
+                <form className={styles.form}>
                     <input type="email" name='email' placeholder='Type email and hit enter' required />
                 </form>
             </section>
