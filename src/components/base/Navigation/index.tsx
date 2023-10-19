@@ -11,6 +11,7 @@ export default function Navigation({styles}: data) {
                 <li><Link to="/" className={styles} >Home</Link></li>
                 <li><Link to="about">About</Link></li>
                 <li><Link to="contact">Contact</Link></li>
+                <li><Link to="activity">Fetch Activity</Link></li>
             </ul>
         </>
     )
